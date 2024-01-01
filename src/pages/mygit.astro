@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import GithubStats from "astro-github-stats";
+---
+<Layout title="Mi GitHub Acount">
+    <h2 class=" text-4xl text-slate-400 font-bold text-center ">
+        <a href="https://github.com/carlosmares" target="_blank">
+            Mi github
+        </a>
+    </h2>
+    <div>
+        <GithubStats username="CARLOSMARES" showIcons={true} />
+        <GithubStats username="ayoayco" topLanguages={true} />
+    </div>
+    <a href="https://github.com/carlosmares" target="_blank" class=" text-bold text-white ">
+        Visitar mi Github
+    </a>
+</Layout>
